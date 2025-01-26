@@ -38,7 +38,7 @@ Addon for SkinShuffle mod that allows you to load skins from the folder
    - Do not open the presets if you have removed a skin from the `config/skinshuffle/skins/lazyshuffle` folder.
    - Opening the presets after removing a skin may cause a **NullPointerException** crash in Minecraft.
 
-2. ** How to safely remove a skins**:
+2. **How to safely remove a skins**:
    - Close Minecraft.
    - Remove the skin file from the folder.
    - Press the **Update Skins** button to reload the skins.
