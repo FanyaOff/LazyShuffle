@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "com/fanya/lazyshuffle/mixin/GameMenuScreenMixin": {
+      "initWidgets": "Lnet/minecraft/class_433;method_20543()V"
+    },
+    "com/fanya/lazyshuffle/mixin/TitleScreenMixin": {
+      "init": "Lnet/minecraft/class_442;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/fanya/lazyshuffle/mixin/GameMenuScreenMixin": {
+        "initWidgets": "Lnet/minecraft/class_433;method_20543()V"
+      },
+      "com/fanya/lazyshuffle/mixin/TitleScreenMixin": {
+        "init": "Lnet/minecraft/class_442;method_25426()V"
+      }
+    }
+  }
+}

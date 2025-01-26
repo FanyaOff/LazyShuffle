@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "lazyshuffle",
+  "version": "1.0+1.21.2",
+  "name": "LazyShuffle",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/lazyshuffle/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fanya.lazyshuffle.client.LazyshuffleClient"
+    ]
+  },
+  "mixins": [
+    "lazyshuffle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "fabric": "*",
+    "minecraft": ">=1.21.2",
+    "skinshuffle": "*"
+  }
+}

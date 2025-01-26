@@ -1,0 +1,14 @@
+{
+  "lazyshuffle.button.update": "Update List",
+  "screen.lazyshuffle.text": "Clicking this button §c§lWILL RESET ALL YOUR PRESETS§r and replace them with skins in the §n§bconfig/skinshuffle/skins/lazyshuffle§r folder.\n\n§l§nHow to use this mod?:§r",
+  "screen.lazyshuffle.instruction.skin_folder": "§e1)§r Place your skins in the folder: §n§bconfig/skinshuffle/skins/lazyshuffle§r.",
+  "screen.lazyshuffle.instruction.model": "§e2)§r To use the §6Classic§r model, ensure the file name does not contain §6_slim§r. Add §6_slim§r to the name for the §6Slim§r model.",
+  "screen.lazyshuffle.instruction.model_example": "§eExamples:§r\n- To use the §6Classic§r (Steve) model, name your file like §b\"skinname.png\"§r.\n- To use the §6Slim§r (Alex) model, name your file like §b\"skinname_slim.png\"§r.",
+  "screen.lazyshuffle.instruction.final": "\n§e3)§r After completing all steps, press the §a§lContinue§r button to apply the changes!",
+  "screen.lazyshuffle.instruction.backup": "\n\n§l§nHow to use backups?:§r",
+  "screen.lazyshuffle.instruction.backup_two": "§e1)§r Navigate to §nconfig/skinshuffle/backup§r folder.\n§e2)§r Find the latest backup.\n§e3)§r Close Minecraft.\n§e4)§r Rename it to §bpresets.json§r and replace the existing §bpresets.json§r in §nconfig/skinshuffle§r.",
+  "screen.lazyshuffle.attention": "\n\n§4§lAttention!§r\n§cDo not open the presets if you removed a skin from the §bconfig/skinshuffle/skins/lazyshuffle§r§c folder. Doing so will cause a §eNullPointerException§r§c crash in Minecraft.\n\n§eTo safely remove a skin:§r\n1) Exit Minecraft.\n2) Remove the skin file from the folder.\n3) Press §eUpdate Skins§r button to reload skins.",
+  "screen.lazyshuffle.title": "§4§lAttention!§r",
+  "toast.lazyshuffle.title": "§a§lSuccess!§r",
+  "toast.lazyshuffle.message": "§eSkins have been replaced successfully!§r"
+}
