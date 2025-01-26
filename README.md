@@ -22,7 +22,7 @@ Clicking the **Update List** button will **RESET ALL YOUR PRESETS** and replace 
    - For the **Slim** model: `skinname_slim.png`
 
 3. **Apply Changes**:
-   After completing the above steps, press the **Continue** button to apply the changes!
+   After completing the above steps, press the **Update List** button to apply the changes!
 
 ---
 
