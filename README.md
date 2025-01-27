@@ -1,6 +1,10 @@
 # LazyShuffle
 Addon for SkinShuffle mod that allows you to load skins from the folder
 
+# Demonstartion
+
+![2025-01-2801-02-16-ezgif com-optimize](https://github.com/user-attachments/assets/11e1dfc5-294a-4de6-9fcd-15a899492544)
+
 ## How to Use This Mod
 
 ### Step-by-Step Instructions:
