@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LazyShuffle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LazyShuffle.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LazyShuffle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/LazyShuffle.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fanya.LazyShuffle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fanya.LazyShuffle.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fanya.LazyShuffle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fanya.LazyShuffle.test.iml" />
     </modules>
   </component>
 </project>
