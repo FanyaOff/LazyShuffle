@@ -108,7 +108,7 @@ public class AlertScreen extends SpruceScreen {
 
     public static void reloadSkinShufflePresets() {
         try {
-            Class<?> skinPresetManagerClass = Class.forName("com.mineblock11.skinshuffle.client.config.SkinPresetManager");
+            Class<?> skinPresetManagerClass = Class.forName("dev.imb11.skinshuffle.client.config.SkinPresetManager");
 
             Field loadedPresetsField = skinPresetManagerClass.getDeclaredField("loadedPresets");
             loadedPresetsField.setAccessible(true);
