@@ -5,6 +5,7 @@ import com.fanya.lazyshuffle.client.util.FileManager;
 import com.fanya.lazyshuffle.client.util.PresetGenerator;
 import dev.lambdaurora.spruceui.Position;
 import dev.lambdaurora.spruceui.navigation.NavigationDirection;
+import dev.lambdaurora.spruceui.render.SpruceGuiGraphics;
 import dev.lambdaurora.spruceui.screen.SpruceScreen;
 import dev.lambdaurora.spruceui.widget.SpruceButtonWidget;
 import dev.lambdaurora.spruceui.widget.container.SpruceContainerWidget;
@@ -19,6 +20,7 @@ import net.minecraft.screen.ScreenTexts;
 import net.minecraft.text.OrderedText;
 import net.minecraft.text.StringVisitable;
 import net.minecraft.text.Text;
+import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -86,8 +88,10 @@ public class AlertScreen extends SpruceScreen {
     }
 
     @Override
-    public void renderTitle(DrawContext graphics, int mouseX, int mouseY, float delta) {
-        graphics.drawTextWithShadow(
+    public void render(@NotNull SpruceGuiGraphics graphics, int mouseX, int mouseY, float delta) {
+        super.render(graphics, mouseX, mouseY, delta);
+
+        graphics.vanilla().drawTextWithShadow(
                 this.client.textRenderer,
                 this.title,
                 this.width / 2 - this.client.textRenderer.getWidth(this.title) / 2,
@@ -151,7 +155,7 @@ public class AlertScreen extends SpruceScreen {
         }
 
         @Override
-        public void render(DrawContext context, int mouseX, int mouseY, float delta) {
+        public void render(SpruceGuiGraphics context, int mouseX, int mouseY, float delta) {
             super.render(context, mouseX, mouseY, delta);
 
             context.enableScissor(
@@ -184,12 +188,12 @@ public class AlertScreen extends SpruceScreen {
                 }
                 var wrappedLines = this.client.textRenderer.wrapLines(line, wrapWidth);
                 for (OrderedText wrappedLine : wrappedLines) {
-                    context.drawTextWithShadow(
+                    context.vanilla().drawTextWithShadow(
                             this.client.textRenderer,
                             wrappedLine,
                             this.getX() + 10,
                             currentY,
-                            0xFFFFFF
+                            0xFFFFFFFF
                     );
                     currentY += lineHeight;
                 }
@@ -222,8 +226,5 @@ public class AlertScreen extends SpruceScreen {
         public boolean onNavigation(NavigationDirection direction, boolean tab) {
             return super.onNavigation(direction, tab);
         }
-
-
-
     }
 }
